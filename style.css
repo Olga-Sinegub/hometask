@@ -10,35 +10,49 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
     padding: 15px 100px;
-    height: 10vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.nav-wrapper {
+    display: flex;
+    align-items: center;
 }
 
 .nav_list {
-    display: inline-block;
+    display: flex;
+    list-style: none;
 }
 
 .nav_list > li {
-    display: inline-block;
-    margin-right: 20px;
+    margin-right: 28px;
+    cursor: pointer;
 }
 
 .logo {
-    display: inline-block;
-    margin: 0 350px 0 100px;
+    margin-left: 100px;
+    cursor: pointer;
 }
 
 .links {
-    display: inline-block;
+    margin-left: auto;
 }
 
 .links img {
-    margin-right: 20px;
+    margin-right: 30px;
+    cursor: pointer;
 }
 
 .main-page {
-    height: 90vh;
+    height: calc(100vh - 58px);
     background-color: #F0EFEB;
-    display: inline-flex;
+    display: flex;
+}
+
+.main-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -46,7 +60,7 @@
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     font-size: 60px;
-    margin: 50px 100px 0 100px;
+    margin: 0 100px 0 100px;
     width: 495px;
 }
 
@@ -68,12 +82,11 @@
     font-size: 17px;
     border: none;
     margin: 40px 100px 0 100px;
+    cursor: pointer;
 }
 
-.main-image {
-    height: 521px;
-    width: 599px;
-    float: right;
+.image-wrapper {
+
 }
 
 .guides-page {
@@ -120,3 +133,4 @@
     display: inline-block;
     padding-right: 30px;
 }
+
